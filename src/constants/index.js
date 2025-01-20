@@ -22,21 +22,21 @@ export const PROJECTS = [
     image: project1,
     description:
       "A fully functional Reservation website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Spring", "MongoDB"],
+    technologies: ["HTML", "CSS", "React", "Spring", "MySQL"],
   },
   {
     title: "To-Do App",
     image: project2,
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "React", "JS"],
+    technologies: ["HTML", "CSS", "React",],
   },
   {
     title: "Chat App [current]",
     image: project4,
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Socket I.O", "React", "MongoDB"],
+    technologies: ["HTML", "React", "SocketIO", "MongoDB"],
   },
 ];
 

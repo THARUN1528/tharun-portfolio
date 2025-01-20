@@ -30,13 +30,13 @@ const Hero = () => {
         <div className="flex flex-wrap">
             <div className="w-full lg:w-1/2">
                 <div className="my-2 flex flex-col items-center lg:items-start">
-                    <motion.h1 variants={container(0)} initial="hidden" animate="visible" className=" text-6xl font-light trackimg-tight lg:mt-16 lg:text-7xl">
-                        <motion.span className="inline-block" variants={iconVariants(2)} initial="initial" animate="animate">T</motion.span>
+                    <motion.h1 variants={container(0)} initial="hidden" animate="visible" className=" text-6xl font-light trackimg-tight lg:mt-16 lg:text-7xl">THARUN
+                        {/*<motion.span className="inline-block" variants={iconVariants(2)} initial="initial" animate="animate">T</motion.span>
                         <motion.span className="inline-block" variants={iconVariants(3)} initial="initial" animate="animate">H</motion.span>
                         <motion.span className="inline-block" variants={iconVariants(3.5)} initial="initial" animate="animate">A</motion.span>
                         <motion.span className="inline-block" variants={iconVariants(4)} initial="initial" animate="animate">R</motion.span>
                         <motion.span className="inline-block" variants={iconVariants(3.5)} initial="initial" animate="animate">U</motion.span>
-                        <motion.span className="inline-block" variants={iconVariants(4.5)} initial="initial" animate="animate">N</motion.span>
+                        <motion.span className="inline-block" variants={iconVariants(4.5)} initial="initial" animate="animate">N</motion.span> */}
                         
                     </motion.h1>
                     <motion.span variants={container(0.5)} initial="hidden" animate="visible" className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">Full Stack Developer</motion.span>
