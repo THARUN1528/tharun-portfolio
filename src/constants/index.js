@@ -49,7 +49,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Chrompet Chennai-129",
+  address: "Chromepet Chennai-129",
   phoneNo: "+91 63743  88118 ",
   email: "tharunharikrishnan2004@gmail.com",
 };
