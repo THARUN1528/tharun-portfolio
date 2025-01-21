@@ -30,22 +30,15 @@ const Hero = () => {
         <div className="flex flex-wrap">
             <div className="w-full lg:w-1/2">
                 <div className="my-2 flex flex-col items-center lg:items-start">
-                    <motion.h1 variants={container(0)} initial="hidden" animate="visible" className=" text-6xl font-light trackimg-tight lg:mt-16 lg:text-7xl">THARUN
-                        {/*<motion.span className="inline-block" variants={iconVariants(2)} initial="initial" animate="animate">T</motion.span>
-                        <motion.span className="inline-block" variants={iconVariants(3)} initial="initial" animate="animate">H</motion.span>
-                        <motion.span className="inline-block" variants={iconVariants(3.5)} initial="initial" animate="animate">A</motion.span>
-                        <motion.span className="inline-block" variants={iconVariants(4)} initial="initial" animate="animate">R</motion.span>
-                        <motion.span className="inline-block" variants={iconVariants(3.5)} initial="initial" animate="animate">U</motion.span>
-                        <motion.span className="inline-block" variants={iconVariants(4.5)} initial="initial" animate="animate">N</motion.span> */}
-                        
-                    </motion.h1>
+                    <motion.h1 variants={container(0)} initial="hidden" animate="visible" className=" text-6xl font-light trackimg-tight lg:mt-16 lg:text-7xl">THARUN</motion.h1>
                     <motion.span variants={container(0.5)} initial="hidden" animate="visible" className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">Full Stack Developer</motion.span>
                     <motion.p variants={container(1)} initial="hidden" animate="visible" className="my-10 max-w-xl py-6 font-light text-justify tracking-tighter ">{HERO_CONTENT}</motion.p>
+                    <motion.button variants={container(1.3)} initial="hidden" animate="visible" class="py-1 px-5 flex justify-center items-center bg-transparent hover:bg-purple-400 focus:ring-offset-purple-200 text-white w-auto hover:text-black text-center text-base font-medium shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg"  ><a className="flex" href="https://1drv.ms/w/c/4d6805158167de06/EX6BsBGLyrhIt1RlkpPLREEBLQxlUjlJ72FkapJFBjY9qA?e=YNww9v" >Resume<img className="py-1 mx-1 "  width="15"  src="https://img.icons8.com/ios-filled/100/up-right-arrow.png" alt="up-right-arrow"/></a></motion.button>
                 </div>
             </div>
             <div className="w-full lg:w-1/2 lg:p-8">
             <div className="flex justify-center">
-                <motion.img initial={{ x:100, opacity: 0}} animate={{ x:0, opacity:1}} transition={{duration:1, delay:1.2}} src= {profilepic} alt="profile" />
+                <motion.img initial={{ x:100, opacity: 0}} animate={{ x:0, opacity:1}} transition={{duration:1, delay:1.3}} src= {profilepic} alt="profile" />
             </div>
             </div>
         </div>

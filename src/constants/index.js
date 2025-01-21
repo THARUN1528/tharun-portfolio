@@ -4,7 +4,7 @@ import project4 from "../assets/projects/project-5.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications.  I have honed my skills in front-end technologies like React and as well as in back-end technologies like Node.js, MySQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. I have worked with a variety of technologies, including React, Node.js, MySQL and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   {
@@ -32,10 +32,10 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React",],
   },
   {
-    title: "Chat App [current]",
+    title: "Chat App [on going]",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+      "A platform for creating and publishing blog posts, with features like rich text editing ,formal writting with ai, commenting, and user profiles.",
     technologies: ["HTML", "React", "SocketIO", "MongoDB"],
   },
 ];
