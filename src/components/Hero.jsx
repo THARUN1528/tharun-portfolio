@@ -2,6 +2,7 @@ import {HERO_CONTENT} from "../constants";
 import profilepic from "../assets/kevinRushProfile.png";
 import { motion } from "motion/react";
 
+
 const container = (delay) => ({
     hidden: { x: -100, opacity:0 },
     visible: {
@@ -34,7 +35,7 @@ const Hero = () => {
                     <motion.span variants={container(0.5)} initial="hidden" animate="visible" className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">Full Stack Developer</motion.span>
                     <motion.p variants={container(1)} initial="hidden" animate="visible" className="mt-10 max-w-xl py-6 font-light text-justify tracking-tighter ">{HERO_CONTENT}</motion.p>
                     <motion.button variants={container(1.3)} initial="hidden" animate="visible" class="py-1 px-5 my-10 flex justify-center items-center bg-purple-400 focus:ring-offset-purple-200 text-black w-auto text-center text-base font-medium shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg"  >
-                      <a className="flex" href="https://1drv.ms/w/c/4d6805158167de06/EX6BsBGLyrhIt1RlkpPLREEBLQxlUjlJ72FkapJFBjY9qA?e=YNww9v" >Resume<img className="py-1 mx-1 "  width="15"  src="https://img.icons8.com/ios-filled/100/up-right-arrow.png" alt="up-right-arrow"/></a></motion.button>
+                      <a className="flex" href="https://ivory-carine-60.tiiny.site" >Resume<img className="py-1 mx-1 "  width="15"  src="https://img.icons8.com/ios-filled/100/up-right-arrow.png" alt="up-right-arrow"/></a></motion.button>
                 </div>
             </div>
             <div className="w-full lg:w-1/2 lg:p-8">
